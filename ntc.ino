@@ -14,7 +14,7 @@ void setup(){
  Serial.begin(9600);
  pinMode(led,OUTPUT);
  pinMode(A0,INPUT);
- analogReference(EXTERNAL);
+ //analogReference(EXTERNAL);
 }
  
 void loop() 
